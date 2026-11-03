@@ -1,0 +1,134 @@
+{
+  "tr": {
+    "header": {
+      "skills": "Yetenekler",
+      "projects": "Projeler",
+      "hireMe": "Bana ulaş"
+    },
+    "introduction": {
+      "title": "Yaratıcı düşünen",
+      "subtitle": "Minimalizm tutkunu",
+      "description": "Merhaba, ben Semih. Full Stack Developer olarak kendimi geliştiriyorum.",
+      "hireMe": "Bana ulaş"
+    },
+    "skills": {
+      "title": "Yetenekler",
+      "items": [
+        {
+          "name": "JavaScript",
+          "description": "Modern JavaScript geliştirme"
+        },
+        {
+          "name": "React",
+          "description": "Component tabanlı arayüz geliştirme"
+        },
+        {
+          "name": "Node.js",
+          "description": "Backend geliştirme"
+        }
+      ]
+    },
+    "profile": {
+      "title": "Profil",
+      "basicInformation": "Temel Bilgiler",
+      "aboutTitle": "Hakkımda",
+      "birthDate": "Doğum tarihi",
+      "city": "Şehir",
+      "education": "Eğitim",
+      "role": "Meslek",
+      "about": "Yazılım geliştirmeye ilgi duyan, öğrenmeye ve kendini geliştirmeye açık bir geliştiriciyim."
+    },
+    "projects": {
+      "title": "Projeler",
+      "items": [
+        {
+          "name": "Portfolio Website",
+          "description": "Kişisel portföy web sitesi.",
+          "image": "/images/project1.png",
+          "technologies": ["React", "CSS", "JavaScript"],
+          "github": "#",
+          "website": "#"
+        },
+        {
+          "name": "E-Commerce",
+          "description": "E-ticaret web uygulaması.",
+          "image": "/images/project2.png",
+          "technologies": ["React", "JavaScript"],
+          "github": "#",
+          "website": "#"
+        }
+      ]
+    },
+    "footer": {
+      "title": "Birlikte çalışalım",
+      "description": "Bir projen mi var? İletişime geçelim.",
+      "email": "example@gmail.com"
+    }
+  },
+  "en": {
+    "header": {
+      "skills": "Skills",
+      "projects": "Projects",
+      "hireMe": "Hire me"
+    },
+    "introduction": {
+      "title": "Creative thinker",
+      "subtitle": "Minimalism lover",
+      "description": "Hi, I'm Semih. I'm developing myself as a Full Stack Developer.",
+      "hireMe": "Hire me"
+    },
+    "skills": {
+      "title": "Skills",
+      "items": [
+        {
+          "name": "JavaScript",
+          "description": "Modern JavaScript development"
+        },
+        {
+          "name": "React",
+          "description": "Component-based interface development"
+        },
+        {
+          "name": "Node.js",
+          "description": "Backend development"
+        }
+      ]
+    },
+    "profile": {
+      "title": "Profile",
+      "basicInformation": "Basic Information",
+      "aboutTitle": "About Me",
+      "birthDate": "Date of Birth",
+      "city": "City",
+      "education": "Education",
+      "role": "Occupation",
+      "about": "I'm a developer interested in software development and always eager to learn and improve."
+    },
+    "projects": {
+      "title": "Projects",
+      "items": [
+        {
+          "name": "Portfolio Website",
+          "description": "Personal portfolio website.",
+          "image": "/images/project1.png",
+          "technologies": ["React", "CSS", "JavaScript"],
+          "github": "#",
+          "website": "#"
+        },
+        {
+          "name": "E-Commerce",
+          "description": "E-commerce web application.",
+          "image": "/images/project2.png",
+          "technologies": ["React", "JavaScript"],
+          "github": "#",
+          "website": "#"
+        }
+      ]
+    },
+    "footer": {
+      "title": "Let's work together",
+      "description": "Have a project in mind? Let's get in touch.",
+      "email": "example@gmail.com"
+    }
+  }
+}
