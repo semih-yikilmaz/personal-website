@@ -6,7 +6,7 @@ export const LanguageProvider = ({ children }) => {
   const [lang, setLang] = useState(() => {
     const savedLang = localStorage.getItem("language");
 
-    return savedLang ? savedLang : "tr"
+    return savedLang === "en" ? "en" : "tr";
   });
 
   useEffect(() => {
