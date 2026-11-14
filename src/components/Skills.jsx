@@ -1,3 +1,4 @@
+import "./Skills.css";
 import data from "../data.json";
 import { useLanguage } from "../context/LanguageContext";
 
@@ -7,14 +8,27 @@ const Skills = () => {
   const content = data[lang].skills;
 
   return (
-    <section className="skills" id="skills">
-      <h2>{content.title}</h2>
+    <section
+      className="skills mx-auto w-full max-w-6xl px-6 py-16 md:py-20"
+      id="skills"
+    >
+      <h2 className="mb-10 text-3xl font-bold md:text-5xl">
+        {content.title}
+      </h2>
 
-      <div>
-        {content.items.map((skill, index) => (
-          <div key={skill.name}>
-            <h3>{skill.name}</h3>
-            <p>{skill.description}</p>
+      <div className="skills-list grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
+        {content.items.map((skill) => (
+          <div
+            className="skill-item flex flex-col gap-4"
+            key={skill.name}
+          >
+            <h3 className="text-2xl font-semibold">
+              {skill.name}
+            </h3>
+
+            <p className="text-base leading-7">
+              {skill.description}
+            </p>
           </div>
         ))}
       </div>

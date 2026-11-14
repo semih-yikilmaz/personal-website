@@ -1,0 +1,85 @@
+
+/* Logo */
+.header-logo {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  font-size: 24px;
+  font-weight: 700;
+  transform: rotate(-20deg);
+}
+
+/* Navigation */
+.header-nav {
+  font-size: 16px;
+  font-weight: 500;
+}
+.header-nav a {
+  transition: color 0.2s ease;
+}
+.header-nav a:last-child {
+  padding: 10px 24px;
+  border: 1px solid;
+  border-radius: 6px;
+}
+
+/* Settings */
+.header-settings button {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  transition: color 0.2s ease;
+}
+
+/* Theme Switch */
+.theme-switch {
+  background-color: #4731d3;
+}
+.theme-switch-circle {
+  background-color: #ffe86b;
+  transition: transform 0.2s ease;
+}
+[data-theme="light"] .theme-switch-circle {
+  transform: translateX(16px);
+}
+[data-theme="dark"] .theme-switch-circle {
+  transform: translateX(0);
+}
+
+/* Light Mode */
+[data-theme="light"] .header-logo {
+  background-color: #eeebff;
+  color: #7b61ff;
+}
+[data-theme="light"] .header-nav {
+  color: #6b7280;
+}
+[data-theme="light"] .header-nav a:hover {
+  color: #3730a3;
+}
+[data-theme="light"] .header-nav a:last-child {
+  color: #3730a3;
+  border-color: #3730a3;
+}
+[data-theme="light"] .header-settings button {
+  color: #6b7280;
+}
+
+/* Dark Mode */
+[data-theme="dark"] .header-logo {
+  background-color: #4731d3;
+  color: #c1b5ff;
+}
+[data-theme="dark"] .header-nav {
+  color: #d1d5db;
+}
+[data-theme="dark"] .header-nav a:hover {
+  color: #a5b4fc;
+}
+[data-theme="dark"] .header-nav a:last-child {
+  color: #a5b4fc;
+  border-color: #a5b4fc;
+}
+[data-theme="dark"] .header-settings button {
+  color: #d1d5db;
+}

@@ -1,3 +1,4 @@
+import "./Profile.css";
 import data from "../data.json";
 import { useLanguage } from "../context/LanguageContext";
 
@@ -7,37 +8,46 @@ const Profile = () => {
   const content = data[lang].profile;
 
   return (
-    <section className="profile">
-      <h2>{content.title}</h2>
+    <section className="profile mx-auto w-full max-w-6xl px-6 py-16 md:py-20">
+      <h2 className="mb-10 text-3xl font-bold md:text-5xl">
+        {content.title}
+      </h2>
 
-      <div className="profile-content">
-        <div className="profile-info">
-          <h3>{content.basicInformation}</h3>
+      <div className="profile-content grid grid-cols-1 gap-12 md:grid-cols-2">
+        <div className="profile-info flex flex-col gap-4">
+          <h3 className="mb-4 text-2xl font-semibold">
+            {content.basicInformation}
+          </h3>
 
-          <p>
+          <p className="grid grid-cols-[110px_1fr] gap-4 sm:grid-cols-[140px_1fr]">
             <span>{content.birthDate}</span>
             <span>1989</span>
           </p>
 
-          <p>
+          <p className="grid grid-cols-[110px_1fr] gap-4 sm:grid-cols-[140px_1fr]">
             <span>{content.city}</span>
             <span>Eskişehir</span>
           </p>
 
-          <p>
+          <p className="grid grid-cols-[110px_1fr] gap-4 sm:grid-cols-[140px_1fr]">
             <span>{content.education}</span>
-            <span>Selçuk Üni. - Hukuk (Law)</span>
+            <span>Selçuk Üniversitesi - Hukuk (Law)</span>
           </p>
 
-          <p>
+          <p className="grid grid-cols-[110px_1fr] gap-4 sm:grid-cols-[140px_1fr]">
             <span>{content.role}</span>
             <span>FrontEnd Developer</span>
           </p>
         </div>
 
-        <div className="profile-about">
-          <h3>{content.aboutTitle}</h3>
-          <p>{content.about}</p>
+        <div className="profile-about flex flex-col gap-6">
+          <h3 className="text-2xl font-semibold">
+            {content.aboutTitle}
+          </h3>
+
+          <p className="text-base leading-8">
+            {content.about}
+          </p>
         </div>
       </div>
     </section>

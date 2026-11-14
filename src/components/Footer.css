@@ -1,0 +1,35 @@
+.footer-email {
+  text-decoration: underline;
+  text-underline-offset: 6px;
+  transition: color 0.2s ease;
+}
+
+/* Light Mode */
+[data-theme="light"] .footer {
+  background-color: #f9f9ff;
+  color: #1f2937;
+}
+[data-theme="light"] .footer p {
+  color: #6b7280;
+}
+[data-theme="light"] .footer-email {
+  color: #3730a3;
+}
+[data-theme="light"] .footer-email:hover {
+  color: #6366f1;
+}
+
+/* Dark Mode */
+[data-theme="dark"] .footer {
+  background-color: #252128;
+  color: #f9fafb;
+}
+[data-theme="dark"] .footer p {
+  color: #d1d5db;
+}
+[data-theme="dark"] .footer-email {
+  color: #a5b4fc;
+}
+[data-theme="dark"] .footer-email:hover {
+  color: #c7d2fe;
+}

@@ -1,0 +1,36 @@
+.profile-info p span:first-child {
+  font-weight: 600;
+}
+
+/* Light Mode */
+
+[data-theme="light"] .profile {
+  color: #1f2937;
+}
+[data-theme="light"] .profile-info h3,
+[data-theme="light"] .profile-about h3 {
+  color: #3730a3;
+}
+[data-theme="light"] .profile-info p span:first-child {
+  color: #3730a3;
+}
+[data-theme="light"] .profile-info p span:last-child,
+[data-theme="light"] .profile-about p {
+  color: #6b7280;
+}
+
+/* Dark Mode */
+[data-theme="dark"] .profile {
+  color: #f9fafb;
+}
+[data-theme="dark"] .profile-info h3,
+[data-theme="dark"] .profile-about h3 {
+  color: #a5b4fc;
+}
+[data-theme="dark"] .profile-info p span:first-child {
+  color: #a5b4fc;
+}
+[data-theme="dark"] .profile-info p span:last-child,
+[data-theme="dark"] .profile-about p {
+  color: #d1d5db;
+}

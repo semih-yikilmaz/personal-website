@@ -1,0 +1,25 @@
+.skill-item h3 {
+  transition: color 0.2s ease;
+}
+
+/* Light Mode */
+[data-theme="light"] .skills {
+  color: #1f2937;
+}
+[data-theme="light"] .skill-item h3 {
+  color: #3730a3;
+}
+[data-theme="light"] .skill-item p {
+  color: #6b7280;
+}
+
+/* Dark Mode */
+[data-theme="dark"] .skills {
+  color: #f9fafb;
+}
+[data-theme="dark"] .skill-item h3 {
+  color: #a5b4fc;
+}
+[data-theme="dark"] .skill-item p {
+  color: #d1d5db;
+}

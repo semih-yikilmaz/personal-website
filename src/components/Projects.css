@@ -1,0 +1,9 @@
+/* Light Mode */
+[data-theme="light"] .projects {
+  color: #1f2937;
+}
+
+/* Dark Mode */
+[data-theme="dark"] .projects {
+  color: #f9fafb;
+}
