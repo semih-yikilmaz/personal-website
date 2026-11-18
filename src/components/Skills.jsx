@@ -9,10 +9,10 @@ const Skills = () => {
 
   return (
     <section
-      className="skills mx-auto w-full max-w-6xl px-6 py-16 md:py-20"
+      className="skills mx-auto w-full max-w-3xl px-6 py-10 md:py-14"
       id="skills"
     >
-      <h2 className="mb-10 text-3xl font-bold md:text-5xl">
+      <h2 className="mb-10 text-2xl font-bold md:text-3xl">
         {content.title}
       </h2>
 

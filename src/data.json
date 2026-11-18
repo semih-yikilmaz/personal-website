@@ -23,7 +23,7 @@
           "description": "Component tabanlı arayüz geliştirme"
         },
         {
-          "name": "Node.js",
+          "name": "Java",
           "description": "Backend geliştirme"
         }
       ]
@@ -44,17 +44,17 @@
         {
           "name": "Portfolio Website",
           "description": "Kişisel portföy web sitesi.",
-          "image": "/images/project1.png",
+          "image": "/images/portfolio.png",
           "technologies": ["React", "CSS", "JavaScript"],
           "github": "#",
           "website": "#"
         },
         {
-          "name": "E-Commerce",
-          "description": "E-ticaret web uygulaması.",
-          "image": "/images/project2.png",
-          "technologies": ["React", "JavaScript"],
-          "github": "#",
+          "name": "Pizza Sipariş",
+          "description": "Kullanıcıların pizza seçip sipariş oluşturabildiği web uygulaması.",
+          "image": "/images/pizza.jpg",
+          "technologies": ["React", "JavaScript", "CSS"],
+          "github": "https://github.com/semih-yikilmaz/fsweb-s8-challenge-pizza",
           "website": "#"
         }
       ]
@@ -62,7 +62,7 @@
     "footer": {
       "title": "Birlikte çalışalım",
       "description": "Bir projen mi var? İletişime geçelim.",
-      "email": "example@gmail.com"
+      "email": "semih.yikilmaz@outlook.com"
     }
   },
   "en": {
@@ -89,7 +89,7 @@
           "description": "Component-based interface development"
         },
         {
-          "name": "Node.js",
+          "name": "Java",
           "description": "Backend development"
         }
       ]
@@ -110,17 +110,17 @@
         {
           "name": "Portfolio Website",
           "description": "Personal portfolio website.",
-          "image": "/images/project1.png",
+          "image": "/images/portfolio.png",
           "technologies": ["React", "CSS", "JavaScript"],
           "github": "#",
           "website": "#"
         },
         {
-          "name": "E-Commerce",
-          "description": "E-commerce web application.",
-          "image": "/images/project2.png",
-          "technologies": ["React", "JavaScript"],
-          "github": "#",
+          "name": "Pizza Order",
+          "description": "A web application where users can select pizzas and place orders.",
+          "image": "/images/pizza.jpg",
+          "technologies": ["React", "JavaScript", "CSS"],
+          "github": "https://github.com/semih-yikilmaz/fsweb-s8-challenge-pizza",
           "website": "#"
         }
       ]
@@ -128,7 +128,7 @@
     "footer": {
       "title": "Let's work together",
       "description": "Have a project in mind? Let's get in touch.",
-      "email": "example@gmail.com"
+      "email": "semih.yikilmaz@outlook.com"
     }
   }
 }

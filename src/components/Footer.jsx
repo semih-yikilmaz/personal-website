@@ -9,22 +9,22 @@ const Footer = () => {
 
   return (
     <footer
-      className="footer w-full py-16 md:py-24"
+      className="footer w-full py-10 md:py-14"
       id="contact"
     >
-      <div className="footer-content mx-auto flex w-full max-w-6xl flex-col items-start gap-6 px-6">
+      <div className="footer-content mx-auto flex w-full max-w-3xl flex-col items-start gap-6 px-6">
 
-        <h2 className="max-w-2xl text-3xl font-bold md:text-5xl">
+        <h2 className="max-w-xl text-2xl font-bold md:text-3xl">
           {content.title}
         </h2>
 
-        <p className="max-w-xl text-base leading-7 md:text-lg">
+        <p className="max-w-l text-base leading-7 md:text-lg">
           {content.description}
         </p>
 
         <a
           href={`mailto:${content.email}`}
-          className="footer-email text-lg font-semibold md:text-xl"
+          className="footer-email text-lg font-semibold md:text-l"
         >
           {content.email}
         </a>

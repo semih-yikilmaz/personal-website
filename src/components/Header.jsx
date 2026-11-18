@@ -10,7 +10,7 @@ const Header = () => {
   const content = data[lang].header;
 
   return (
-    <header className="header mx-auto w-full max-w-6xl px-6">
+    <header className="header mx-auto w-full max-w-3xl px-6">
 
       <div className="header-settings flex items-center justify-end gap-4 py-4">
         <button

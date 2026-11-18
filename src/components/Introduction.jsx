@@ -8,15 +8,15 @@ const Introduction = () => {
   const content = data[lang].introduction;
 
   return (
-    <section className="introduction mx-auto w-full max-w-6xl px-6 py-16 md:py-24">
+    <section className="introduction mx-auto w-full max-w-3xl px-6 py-10 md:py-14">
       <div className="introduction-container flex flex-col items-center gap-12 md:flex-row md:justify-between">
 
         <div className="introduction-content flex w-full flex-col items-start gap-6 md:w-3/5">
-          <h1 className="text-4xl font-bold md:text-6xl">
+          <h1 className="text-3xl font-bold md:text-4xl">
             {content.title}
           </h1>
 
-          <h2 className="text-3xl font-semibold md:text-5xl">
+          <h2 className="text-2xl font-semibold md:text-3xl">
             {content.subtitle}
           </h2>
 
@@ -24,19 +24,39 @@ const Introduction = () => {
             {content.description}
           </p>
 
-          <a
-            href="#contact"
-            className="introduction-button inline-flex items-center justify-center px-8 py-3"
-          >
-            {content.hireMe}
-          </a>
+          <div className="introduction-links flex flex-wrap items-center gap-3">
+            <a
+              href="#contact"
+              className="introduction-button inline-flex items-center justify-center px-8 py-3"
+            >
+              {content.hireMe}
+            </a>
+
+            <a
+              href="https://github.com/semih-yikilmaz"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="introduction-social inline-flex items-center justify-center px-5 py-3"
+            >
+              GitHub
+            </a>
+
+            <a
+              href="https://www.linkedin.com/in/semih-y%C4%B1k%C4%B1lmaz-593220450/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="introduction-social inline-flex items-center justify-center px-5 py-3"
+            >
+              LinkedIn
+            </a>
+          </div>
         </div>
 
         <div className="introduction-image w-full md:w-2/5">
           <img
             src="/images/profile.png"
             alt="Profil görseli"
-            className="w-full h-auto object-cover"
+            className="w-full h-auto object-contain"
           />
         </div>
 

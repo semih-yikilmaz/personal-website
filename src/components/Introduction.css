@@ -35,3 +35,33 @@
   font-weight: 500;
   transition: background-color 0.2s ease;
 }
+/* Social Links */
+
+.introduction-social {
+  border: 1px solid;
+  border-radius: 6px;
+  font-weight: 500;
+  transition: background-color 0.2s ease;
+}
+
+/* Light Mode */
+
+[data-theme="light"] .introduction-social {
+  color: #3730a3;
+  border-color: #3730a3;
+}
+
+[data-theme="light"] .introduction-social:hover {
+  background-color: #eeebff;
+}
+
+/* Dark Mode */
+
+[data-theme="dark"] .introduction-social {
+  color: #a5b4fc;
+  border-color: #a5b4fc;
+}
+
+[data-theme="dark"] .introduction-social:hover {
+  background-color: #292450;
+}
