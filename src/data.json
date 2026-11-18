@@ -46,8 +46,8 @@
           "description": "Kişisel portföy web sitesi.",
           "image": "/images/portfolio.png",
           "technologies": ["React", "CSS", "JavaScript"],
-          "github": "#",
-          "website": "#"
+          "github": "https://github.com/semih-yikilmaz/personal-website",
+          "website": "https://personal-website-kappa-five-87.vercel.app/"
         },
         {
           "name": "Pizza Sipariş",
@@ -55,7 +55,7 @@
           "image": "/images/pizza.jpg",
           "technologies": ["React", "JavaScript", "CSS"],
           "github": "https://github.com/semih-yikilmaz/fsweb-s8-challenge-pizza",
-          "website": "#"
+          "website": "https://fsweb-s8-challenge-pizza-jade.vercel.app/"
         }
       ]
     },
@@ -112,8 +112,8 @@
           "description": "Personal portfolio website.",
           "image": "/images/portfolio.png",
           "technologies": ["React", "CSS", "JavaScript"],
-          "github": "#",
-          "website": "#"
+          "github": "https://github.com/semih-yikilmaz/personal-website",
+          "website": "https://personal-website-kappa-five-87.vercel.app/"
         },
         {
           "name": "Pizza Order",
@@ -121,7 +121,7 @@
           "image": "/images/pizza.jpg",
           "technologies": ["React", "JavaScript", "CSS"],
           "github": "https://github.com/semih-yikilmaz/fsweb-s8-challenge-pizza",
-          "website": "#"
+          "website": "https://fsweb-s8-challenge-pizza-jade.vercel.app/"
         }
       ]
     },
